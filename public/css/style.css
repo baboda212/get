@@ -1,0 +1,15 @@
+/* style.css */
+a{
+    color: red;
+}
+.container{
+    border: 1px solid #ccc;
+    width: 300px;
+    margin: 0 auto;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+button{
+    margin: 10px;
+}

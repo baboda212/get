@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= title  %> </title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <nav>
+        <a href="/">home</a> |
+        <a href="/about">about</a> |
+        <a href="/coffee">coffee</a>
+    </nav>
+    <div class="container">
+        <h1><%= title  %> </h1>
+        <form 
+        action="/create"
+        method="get"
+        >
+        <label for="name">name:</label>
+        <input type="text" id="name" name="name"><br><br>
+        <button type="submit">전송</button>
+        </form>
+    </div>
+    
+    <div class="container">
+        <h1>커피제품 보기</h1>
+        <form 
+        action="/coffee"
+        method="get"
+        >
+        <label for="name">coffee name:</label>
+        <input type="text" id="name" name="name"><br><br>
+        <button type="submit">전송</button>
+        </form>
+    </div>
+    
+    
+    
+</body>
+</html>
